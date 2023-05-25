@@ -1,0 +1,91 @@
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__thank-container/popup__thank-container.css);
+@import url(../blocks/popup/__thank-area/popup__thank-area.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__cover-container/popup__cover-container.css);
+@import url(../blocks/popup/__cover/popup__cover.css);
+@import url(../blocks/popup/__label-container/popup__label-container.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__comment-container/form__comment-container.css);
+@import url(../blocks/form/__comment/form__comment.css);
+@import url(../blocks/form/__input-error/form__input-error.css);
+
+@import url(../blocks/error/error.css);
+@import url(../blocks/error/_active/error_active.css);
+
+@import url(../blocks/button/button-night.css);
+@import url(../blocks/button/button-buy.css);
+@import url(../blocks/button/button-home.css);
+@import url(../blocks/button/button-close.css);
+@import url(../blocks/button/button-close-thank.css);
+@import url(../blocks/button/button-submit.css);
+@import url(../blocks/button/_disabled/button-submit_disabled.css);
+@import url(../blocks/button/_active/button-night_active.css);
+
+@import url(../blocks/radio-color/radio-color.css);
+@import url(../blocks/radio-color/__label/radio-color__label.css);
+@import url(../blocks/radio-color/__title/radio-color__title.css);
+@import url(../blocks/radio-color/__input-container/radio-color__input-container.css);
+@import url(../blocks/radio-color/__input/radio-color__input.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-list/header__menu-list.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+
+@import url(../blocks/theme/theme.css);
+@import url(../blocks/theme/__button/theme__button.css);
+@import url(../blocks/theme/__checkbox/theme__checkbox.css);
+@import url(../blocks/theme/__light/theme__light.css);
+@import url(../blocks/theme/__day-before/theme__day-before.css);
+@import url(../blocks/theme/__day-after/theme__day-after.css);
+@import url(../blocks/theme/__dark/theme__dark.css);
+
+@import url(../blocks/container/container.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text/intro__text.css);
+
+@import url(../blocks/category/category.css);
+@import url(../blocks/category/category_first.css);
+@import url(../blocks/category/category_second.css);
+@import url(../blocks/category/category_thrird.css);
+@import url(../blocks/category/category_foure.css);
+@import url(../blocks/category/__title/category__title.css);
+@import url(../blocks/category/__elements/category__elements.css);
+
+@import url(../blocks/elements/elements.css);
+
+@import url(../blocks/element/element.css);
+@import url(../blocks/element/__cover/element__cover.css);
+@import url(../blocks/element/__caption/element__caption.css);
+@import url(../blocks/element/__title/element__title.css);
+@import url(../blocks/element/__date/element__date.css);
+@import url(../blocks/element/__date-format/element__date-format.css);
+
+
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__list-title/footer__list-title.css);
+@import url(../blocks/footer/__nav-list/footer__nav-list.css);
+@import url(../blocks/footer/__nav-item/footer__nav-item.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);

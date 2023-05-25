@@ -1,0 +1,15 @@
+.footer__nav-link {
+  display: flex;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #ac3b61;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.footer__nav-link:hover {
+  color: #FA784E;
+  opacity: 0.6;
+  text-decoration-line: underline;
+  transition: all 0.5s ease 0s;
+}

@@ -1,0 +1,14 @@
+.radio-color {
+    grid-row: 3 / 4;
+    grid-column: 2;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-inline: 0;
+    padding-block: 0;
+    padding-inline: 0;
+    border: none;
+    /* min-inline-size: auto; */
+    flex-direction: column;
+    }

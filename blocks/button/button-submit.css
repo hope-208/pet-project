@@ -1,0 +1,46 @@
+.button-submit {
+  margin: 0;
+  grid-row: 5;
+  grid-column: 1 / 2;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-self: center;
+  justify-content: center;
+  object-position: center;
+  object-fit: cover;
+  max-width: 560px;
+  margin-block: 0;
+  margin-inline: 0;
+  background-color: #13C39C;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 245px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  z-index: 6;
+  cursor: pointer;
+  align-items: center;
+  align-content: center;
+}
+
+.button-submit:hover {
+  opacity: 0.8;
+}
+
+.button-submit:focus {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 495px) {
+  .button-submit {
+    max-width: 238px;
+    font-size: 14px;
+    height: 46px;
+    padding: 14px 117px;
+  }
+}

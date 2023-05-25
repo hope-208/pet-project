@@ -1,0 +1,41 @@
+.theme__checkbox {
+  display: none;
+}
+
+.theme__checkbox:checked + .theme {
+  background-color: #000;
+}
+
+.theme__checkbox:checked + .theme .theme__light {
+  top: 3px;
+  left: 64px;
+  transform: scale(0.3);
+  background-color: yellow;
+}
+
+.theme__checkbox:checked + .theme .theme__day-before,
+.theme__day-after {
+  color: yellow;
+}
+
+.theme__checkbox:checked + .theme .theme__dark {
+  bottom: 8px;
+}
+
+.theme__checkbox:checked + .theme .theme__dark:before {
+  background-color: #000;
+}
+
+/*
+
+@media screen and (max-width: 1280px) {
+  .theme__checkbox,
+  .theme,
+  .theme__light,
+  .theme__day-before,
+  .theme__day-after,
+  .theme__dark {
+    transform: scale(0.7);
+  }
+}
+*/

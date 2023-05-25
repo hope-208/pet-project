@@ -1,0 +1,6 @@
+.header__menu {
+  display: flex;
+  max-width: 80%;
+  width: 100%;
+  flex-wrap: wrap;
+}

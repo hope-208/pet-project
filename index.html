@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Всякая всячина</title>
+</head>
+
+<body class="body">
+  <div class="page">
+
+
+    <section class="popup popup_buy" aria-label="Всплывающее окно оформления заказа.">
+      <div class="popup__container">
+        <button class="button-close button-close_buy" type="button" form="buy"></button>
+
+        <form class="form form_buy" name="buy" id="buy" novalidate>
+          <h2 class="popup__title">Оформление заказа</h2>
+          <div class="popup__cover-container">
+            <img class="popup__cover" src="#" alt="#">
+          </div>
+          <fieldset class="popup__label-container">
+            <label class="form__label" for="number">Количество:</label>
+            <input class="form__input" type="number" name="number" id="number" value="1" min="1" max="999" form="buy"
+              required>
+            <span class="error number-error"></span>
+          </fieldset>
+
+          <fieldset class="radio-color">
+            <legend class="radio-color__title">Цвет:</legend>
+
+            <div class="radio-color__input-container">
+              <input class="radio-color__input" type="radio" name="radio" id="red" value="red" form="buy"
+                title="Красный" required>
+              <input class="radio-color__input" type="radio" name="radio" id="green" value="green" form="buy"
+                title="Зелёный" required>
+              <input class="radio-color__input" type="radio" name="radio" id="blue" value="blue" form="buy"
+                title="Синий" required>
+              <input class="radio-color__input" type="radio" name="radio" id="yellow" value="yellow" form="buy"
+                title="Жёлтый" required>
+              <input class="radio-color__input" type="radio" name="radio" id="black" value="black" form="buy"
+                title="Чёрный" required>
+              <input class="radio-color__input" type="radio" name="radio" id="white" value="white" form="buy"
+                title="Белый" required>
+            </div>
+            <span class="error radio-error"></span>
+          </fieldset>
+
+          <div class="form__comment-container">
+            <label class="form__label">Комментарий:</label>
+            <textarea class="form__comment" name="comment" id="comment" form="buy" maxlength="2000" rows="7"
+              placeholder="(не более 2 000 символов)" spellcheck="true"></textarea>
+          </div>
+          <button class="button-submit button-submit_buy button-submit_disabled" type="submit" form="buy" disabled>
+            Купить
+          </button>
+        </form>
+      </div>
+    </section>
+
+
+    <section class="popup popup_thank" aria-label="Благодарность за покупку.">
+      <div class="popup__thank-container">
+        <button class="button-close-thank" type="button"></button>
+        <div class="popup__thank-area">
+          <img class="popup__image" src="./images/thank.svg" alt="Иллюстрация: спасибо за покупку.">
+          <p class="popup__title">Спасибо за покупку!</p>
+        </div>
+      </div>
+    </section>
+
+
+    <header class="header" id="home">
+      <img class="header__logo" src="./images/logo.svg" alt="Логотип: всякая всячина.">
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item"><a class="header__menu-link" href="#category1">Категория 1</a></li>
+          <li class="header__menu-item"><a class="header__menu-link" href="#category2">Категория 2</a></li>
+          <li class="header__menu-item"><a class="header__menu-link" href="#category3">Категория 3</a></li>
+          <li class="header__menu-item"><a class="header__menu-link" href="#category4">Категория 4</a></li>
+        </ul>
+      </nav>
+
+      <!--
+      <button class="button-night" type="button" title="Переключатель тёмной темы."></button>
+-->
+      <div>
+        <input class="button-night" type="button" id="toggle-theme" title="Переключатель тёмной темы." value=".">
+      </div>
+    </header>
+
+    <main class="container">
+
+      <section class="lead">
+        <h1 class="lead__title">Товары</h1>
+        <p class="lead__subtitle">на любой вкус</p>
+        <img class="lead__image" src="./images/lead.svg" alt="Иллюстрация: всякая всячина.">
+      </section>
+
+      <section class="intro" aria-label="Мотивирующий слоган.">
+        <p class="intro__text">Всегда есть то, что вам нужно.</p>
+      </section>
+
+      <section class="category category_first" aria-label="Категория 1." id="category1">
+        <h2 class="category__title">Категория 1</h2>
+
+        <div class="category__elements category__elements-first">
+          <!--
+          <article class="element">
+        <img class="element__cover" src="https://redsneaker.ru/components/com_jshopping/files/img_products/4949/reebok-classic-leather-4949-1.jpg" alt="#" />
+        <div class="element__caption">
+          <p class="element__title">Название</p>
+          <p class="element__date">Добавлено:</p>
+          <p class="element__date-format">Суббота, 1 неделя Января 2022 года</p>
+          <button class="button-buy grow_ellipse" type="button" name="buy">Купить</button>    
+      </article>-->
+        </div>
+
+      </section>
+
+      <section class="intro" aria-label="Мотивирующий слоган.">
+        <p class="intro__text">У нас есть все и даже больше.</p>
+      </section>
+
+      <section class="category category_second" aria-label="Категория 2." id="category2">
+        <h2 class="category__title">Категория 2</h2>
+
+        <div class="category__elements category__elements-second"></div>
+      </section>
+
+      <section class="intro" aria-label="Мотивирующий слоган.">
+        <p class="intro__text">Просто нажмите, чтобы заказать.</p>
+      </section>
+
+      <section class="category category_thrird" aria-label="Категория 3." id="category3">
+        <h2 class="category__title">Категория 3</h2>
+
+        <div class="category__elements category__elements-thrird"></div>
+      </section>
+
+      <section class="intro" aria-label="Мотивирующий слоган.">
+        <p class="intro__text">Доступно в любое время.</p>
+      </section>
+
+      <section class="category category_foure" aria-label="Категория 4." id="category4">
+        <h2 class="category__title">Категория 4</h2>
+
+        <div class="category__elements category__elements-foure"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">© 2023. Телепенина Надежда</p>
+
+      <div>
+        <p class="footer__list-title">Категории товаров</p>
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item"><a href="#category1" class="footer__nav-link">Категория 1</a></li>
+          <li class="footer__nav-item"><a href="#category2" class="footer__nav-link">Категория 2</a></li>
+          <li class="footer__nav-item"><a href="#category3" class="footer__nav-link">Категория 3</a></li>
+          <li class="footer__nav-item"><a href="#category4" class="footer__nav-link">Категория 4</a></li>
+        </ul>
+      </div>
+      <a class="button-home" href="#home" id="button-up"></a>
+    </footer>
+  </div>
+
+  <template class="card-template" id="cardTemplate">
+    <article class="element">
+      <img class="element__cover" src="https://" alt="#">
+      <div class="element__caption">
+        <p class="element__title"></p>
+        <p class="element__date">Добавлено:</p>
+        <p class="element__date-format"></p>
+        <button class="button-buy grow_ellipse" type="image" name="buy">Купить</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="pages/index.js" type="module"></script>
+
+</body>
+
+</html>

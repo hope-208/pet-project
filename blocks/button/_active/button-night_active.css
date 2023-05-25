@@ -1,0 +1,5 @@
+.button-night_active {
+    background-color: #7587ca;
+    background-image: url(../../../images/moon-white.svg);
+    transition: 0.5s;
+}

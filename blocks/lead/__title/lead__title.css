@@ -1,0 +1,15 @@
+.lead__title {
+  grid-area: 1 / 1;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 4rem;
+    display: flex;
+    color: #ac3b61;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    align-items: flex-end;
+    margin-block: 0;
+    margin-inline: 0;
+}

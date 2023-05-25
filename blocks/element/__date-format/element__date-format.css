@@ -1,0 +1,14 @@
+.element__date-format {
+  display: flex;
+  max-width: 150px;
+  margin-block: 0;
+  margin-inline: 0;
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  grid-row: 3;
+  grid-column: 1;
+  color: #123c69;
+}

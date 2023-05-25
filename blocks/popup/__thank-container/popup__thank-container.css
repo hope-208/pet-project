@@ -1,0 +1,11 @@
+.popup__thank-container {
+    max-width: 500px;
+    display: grid;
+    grid: 32px 300px / 460px 32px;
+    gap: 8px;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+}

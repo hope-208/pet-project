@@ -1,0 +1,12 @@
+.footer__nav-list {
+  display: flex;
+  list-style-type: none;
+  margin-block: 0;
+  margin-inline: 0;
+  padding-inline: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: max-content;
+  flex-direction: column;
+}

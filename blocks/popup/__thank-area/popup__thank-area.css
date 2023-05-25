@@ -1,0 +1,9 @@
+.popup__thank-area {
+    background: #fff;
+    grid-row: 2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}

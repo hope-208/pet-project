@@ -1,0 +1,21 @@
+.popup__container {
+  max-width: 700px;
+  display: grid;
+  grid: 32px 550px / 560px 32px;
+  gap: 8px;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/*
+@media screen and (max-width: 495px) {
+  .popup__container {
+    grid: 20px 322px / 282px;
+    gap: 16px;
+    max-width: 282px;
+  }
+}
+*/

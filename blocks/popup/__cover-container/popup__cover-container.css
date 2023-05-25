@@ -1,0 +1,12 @@
+.popup__cover-container {
+    grid-row: 2 / 4;
+    grid-column: 1;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
