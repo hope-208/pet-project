@@ -6,7 +6,7 @@
   padding-inline: 0;
   margin: auto 10px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-content: center;
   width: 100%;
 }
