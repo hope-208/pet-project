@@ -71,15 +71,27 @@
       </div>
     </section>
 
+    <section class="popup popup_zoom" aria-label="Всплывающее окно увеличения фотографии товара.">
+      <div class="popup__zoom-container">
+        <button class="button-close button-close_zoom" type="button"></button>
+        <figure class="popup__zoom-photo">
+          <img class="popup__photo" src="#" alt="#">
+          <figcaption class="popup__zoom-title">
+            <p class="popup__photo-title"></p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
 
     <header class="header" id="home">
       <img class="header__logo" src="./images/logo.svg" alt="Логотип: всякая всячина.">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__menu-item"><a class="header__menu-link" href="#category1">Категория 1</a></li>
-          <li class="header__menu-item"><a class="header__menu-link" href="#category2">Категория 2</a></li>
-          <li class="header__menu-item"><a class="header__menu-link" href="#category3">Категория 3</a></li>
-          <li class="header__menu-item"><a class="header__menu-link" href="#category4">Категория 4</a></li>
+          <li><a class="header__menu-link" href="#food">Еда и напитки</a></li>
+          <li><a class="header__menu-link" href="#interior">Дизайн интерьера</a></li>
+          <li><a class="header__menu-link" href="#art">Искусство</a></li>
+          <li><a class="header__menu-link" href="#fashion">Мода и красота</a></li>
         </ul>
       </nav>
 
@@ -103,10 +115,10 @@
         <p class="intro__text">Всегда есть то, что вам нужно.</p>
       </section>
 
-      <section class="category category_first" aria-label="Категория 1." id="category1">
-        <h2 class="category__title">Категория 1</h2>
+      <section class="category category_food" aria-label="Еда и напитки." id="food">
+        <h2 class="category__title">Еда и напитки</h2>
 
-        <div class="category__elements category__elements-first">
+        <div class="category__elements category__elements-food">
           <!--
           <article class="element">
         <img class="element__cover" src="https://redsneaker.ru/components/com_jshopping/files/img_products/4949/reebok-classic-leather-4949-1.jpg" alt="#" />
@@ -124,30 +136,30 @@
         <p class="intro__text">У нас есть все и даже больше.</p>
       </section>
 
-      <section class="category category_second" aria-label="Категория 2." id="category2">
-        <h2 class="category__title">Категория 2</h2>
+      <section class="category category_interior" aria-label="Дизайн интерьера." id="interior">
+        <h2 class="category__title">Дизайн интерьера</h2>
 
-        <div class="category__elements category__elements-second"></div>
+        <div class="category__elements category__elements-interior"></div>
       </section>
 
       <section class="intro" aria-label="Мотивирующий слоган.">
         <p class="intro__text">Просто нажмите, чтобы заказать.</p>
       </section>
 
-      <section class="category category_thrird" aria-label="Категория 3." id="category3">
-        <h2 class="category__title">Категория 3</h2>
+      <section class="category category_art" aria-label="Искусство." id="art">
+        <h2 class="category__title">Искусство</h2>
 
-        <div class="category__elements category__elements-thrird"></div>
+        <div class="category__elements category__elements-art"></div>
       </section>
 
       <section class="intro" aria-label="Мотивирующий слоган.">
         <p class="intro__text">Доступно в любое время.</p>
       </section>
 
-      <section class="category category_foure" aria-label="Категория 4." id="category4">
-        <h2 class="category__title">Категория 4</h2>
+      <section class="category category_fashion" aria-label="Мода и красота." id="fashion">
+        <h2 class="category__title">Мода и красота</h2>
 
-        <div class="category__elements category__elements-foure"></div>
+        <div class="category__elements category__elements-fashion"></div>
       </section>
     </main>
 
@@ -157,10 +169,10 @@
       <div>
         <p class="footer__list-title">Категории товаров</p>
         <ul class="footer__nav-list">
-          <li class="footer__nav-item"><a href="#category1" class="footer__nav-link">Категория 1</a></li>
-          <li class="footer__nav-item"><a href="#category2" class="footer__nav-link">Категория 2</a></li>
-          <li class="footer__nav-item"><a href="#category3" class="footer__nav-link">Категория 3</a></li>
-          <li class="footer__nav-item"><a href="#category4" class="footer__nav-link">Категория 4</a></li>
+          <li class="footer__nav-item"><a href="#fashion" class="footer__nav-link">Мода и красота</a></li>
+          <li class="footer__nav-item"><a href="#art" class="footer__nav-link">Искусство</a></li>
+          <li class="footer__nav-item"><a href="#interior" class="footer__nav-link">Дизайн интерьера</a></li>
+          <li class="footer__nav-item"><a href="#food" class="footer__nav-link">Еда и напитки</a></li>
         </ul>
       </div>
       <a class="button-home" href="#home" id="button-up"></a>
@@ -179,7 +191,7 @@
     </article>
   </template>
 
-  <script src="pages/index.js" type="module"></script>
+  <script type="module" src="./pages/index.js"></script>
 
 </body>
 
