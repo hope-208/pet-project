@@ -1,6 +1,4 @@
 export default class Card {
-  //static day = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
-  //static months = ['Января','Февраля','Марта','Апреля','Мая','Июня','Июля','Августа','Сентября','Октября','Ноября','Декабря'];
   constructor(item, templateSelector, handleCardClick, handleCardBuy) {
     this._name = item.name;
     this._link = item.link;
@@ -30,6 +28,29 @@ export default class Card {
   };
 
   generateCard() {
+    const day = [
+      'Понедельник',
+      'Вторник',
+      'Среда',
+      'Четверг',
+      'Пятница',
+      'Суббота',
+      'Воскресенье',
+    ];
+    const months = [
+      'Января',
+      'Февраля',
+      'Марта',
+      'Апреля',
+      'Мая',
+      'Июня',
+      'Июля',
+      'Августа',
+      'Сентября',
+      'Октября',
+      'Ноября',
+      'Декабря',
+    ];
     this._element = this._getTemplate();
     const elementCover = this._element.querySelector('.element__cover');
     const elementTitle = this._element.querySelector('.element__title');
@@ -38,7 +59,11 @@ export default class Card {
     elementCover.alt = this._name;
     elementTitle.textContent = this._name;
     elementTitle.title = this._name;
-    elementDate.textContent = this._date;
+    elementDate.textContent = `Добавлено: ${
+      day[this._date.getDay()]
+    }, ${Math.ceil(this._date.getDate() / 7)} неделя ${
+      months[this._date.getMonth()]
+    } ${this._date.getFullYear()} года`;
 
     const buyButton = this._element.querySelector('.button-buy');
 
