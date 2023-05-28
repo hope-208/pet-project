@@ -1,4 +1,4 @@
-export class FormValidator {
+export default class FormValidator {
   constructor(settings, element) {
     this._inputSelector = settings.inputSelector;
     this._submitButtonSelector = settings.submitButtonSelector;
@@ -44,6 +44,18 @@ export class FormValidator {
     } else {
       this._hideInputError(inputElement);
     }
+
+    console.log(inputElement.validity.valid);
+    /*
+    var radios = document.getElementsByName("yesno");
+    var formValid = false;
+    var i = 0;
+    while (!formValid && i < radios.length) {
+        if (radios[i].checked) formValid = true;
+        i++;
+    }
+    if (!formValid) alert("Must check some option!");
+    return formValid;*/
   }
 
   toggleButtonState() {

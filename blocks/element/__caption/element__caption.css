@@ -12,6 +12,12 @@
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   z-index: 1;
-  background-color: #f2e9e4;
+  background-color: rgba(242, 233, 228, 0.8);
   padding: 0 10px 10px;
+  transition: all 0.5s ease 0s;
+}
+
+.element__caption-night {
+  background-color: #13c39c;
+  transition: all 0.5s ease 0s;
 }

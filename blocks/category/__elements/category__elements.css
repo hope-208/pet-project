@@ -5,7 +5,7 @@
   box-sizing: border-box;
   display: grid;
   grid: min-content / repeat(3, 282px);
-  gap: 20px 17px;
+  gap: 20px;
   grid-auto-rows: 1fr;
 }
 

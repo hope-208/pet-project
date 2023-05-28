@@ -1,5 +1,5 @@
 .button-night {
-    margin: 0;
+  margin: 0;
   padding: 0;
   margin-block: 0;
   margin-inline: 0;
@@ -12,27 +12,27 @@
   object-position: center;
   object-fit: cover;
   align-content: center;
-  box-shadow: 1px 1px 1px #1C274C;
+  box-shadow: 1px 1px 1px #1c274c;
   color: transparent;
   z-index: 15;
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
-    background-color: #F7F9F9;
-    background-image: url(../../images/moon.svg);
-    background-position: center;
-    background-size: 33px;
-    background-repeat: no-repeat;
-    background: transparent url(../../images/moon.svg) no-repeat center / cover 33px;
-    border-radius: 20px;
-    cursor: pointer;
-    overflow: hidden; 
-    
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #f7f9f9;
+  background-image: url(../../images/moon.svg);
+  background-position: center;
+  background-size: 33px;
+  background-repeat: no-repeat;
+  background: transparent url(../../images/moon.svg) no-repeat center / cover
+    33px;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
 .button-night:hover {
-    background-color: #7587ca;
-    background-image: url(../../images/moon-white.svg);
-    transition: 0.5s;
+  background-color: #7587ca;
+  background-image: url(../../images/moon-white.svg);
+  transition: 0.5s;
 }
-

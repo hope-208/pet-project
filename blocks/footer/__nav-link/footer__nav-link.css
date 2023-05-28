@@ -5,11 +5,16 @@
   color: #ac3b61;
   font-weight: 600;
   opacity: 0.8;
+  transition: all 0.5s ease 0s;
 }
 
 .footer__nav-link:hover {
-  color: #FA784E;
   opacity: 0.6;
   text-decoration-line: underline;
+  transition: all 0.5s ease 0s;
+}
+
+.footer__nav-link-night {
+  color: #123c69;
   transition: all 0.5s ease 0s;
 }

@@ -9,3 +9,7 @@
 /* night
     text-shadow: 3px 3px 20px black;
     */
+
+.category + .category_interior {
+  background-image: url(../../images/bubbles.svg);
+}

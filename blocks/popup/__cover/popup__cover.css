@@ -1,9 +1,9 @@
-.popup__cover {  
-    object-fit: cover;
-    width: 310px;
-    height: 205px;
-    overflow: hidden;
-    object-position: center;
-    border-radius: 10px;
-    box-sizing: border-box;
+.popup__cover {
+  object-fit: cover;
+  width: 220px;
+  height: 205px;
+  overflow: hidden;
+  object-position: center;
+  border-radius: 10px;
+  box-sizing: border-box;
 }

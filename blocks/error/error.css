@@ -1,9 +1,9 @@
 .error {
-  display: block;
-  margin: 0;
+  display: flex;
+  margin: 0 auto;
+  padding-left: 110px;
   border: 0;
-  max-width: 358px;
-  width: 100%;
+  width: 258px;
   height: 40px;
   margin-block: 0;
   margin-inline: 0;
@@ -16,4 +16,6 @@
   color: #f00;
   visibility: hidden;
   z-index: 11;
+  align-items: center;
+  justify-content: center;
 }

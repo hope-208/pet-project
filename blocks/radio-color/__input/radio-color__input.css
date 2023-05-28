@@ -1,11 +1,11 @@
 .radio-color__input {
-    display: flex;
-    width: 20px;
-    height: 20px;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .radio-color__input:checked {
-    background-color: blueviolet;
-} 
+  background-color: blueviolet;
+}

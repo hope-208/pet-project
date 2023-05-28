@@ -1,8 +1,8 @@
 .popup__zoom-container {
-  display: flex;
-  position: relative;
   box-sizing: border-box;
-  margin: auto;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: auto;
+  position: relative;
 }

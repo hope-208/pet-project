@@ -3,7 +3,8 @@
   grid: 1fr / repeat(3, 28%);
   position: relative;
   width: 100%;
-  background: #FAF0CA;
+  background: #faf0ca;
+  color: #ac3b61;
   margin: 0;
   padding: 20px 90px;
   box-sizing: border-box;
@@ -12,12 +13,16 @@
   font-weight: 900;
   font-size: 16px;
   line-height: 1rem;
-  color: #ac3b61;
   border-top: 1px solid rgba(186, 178, 181, 0.7);
   align-items: start;
   justify-items: center;
   justify-content: space-between;
   align-content: center;
+}
+
+.footer-night {
+  color: #123c69;
+  transition: all 0.5s ease 0s;
 }
 
 /*
