@@ -19,31 +19,28 @@
         <form class="form form_buy" name="buy" id="buy" novalidate>
           <h2 class="popup__title">Оформление заказа</h2>
           <div class="popup__cover-container">
-            <img class="popup__cover" src="#" alt="#">
+            <img class="popup__cover" src="#" alt="#" form="buy">
           </div>
-          <fieldset class="popup__label-container">
-            <label class="form__label" for="number">Количество:</label>
+          <fieldset class="popup__label-container" title="Обязательное поле">
+            <label class="form__label" for="number"><span class="radio-color__span">*</span>Количество:</label>
             <input class="form__input" type="number" name="number" id="number" value="1" min="1" max="999" form="buy"
               required>
             <span class="error number-error"></span>
           </fieldset>
 
-          <fieldset class="radio-color">
-            <legend class="radio-color__title">Цвет:</legend>
+          <fieldset class="radio-color" title="Обязательное поле">
+            <legend class="radio-color__title"><span class="radio-color__span">*</span>Цвет:
+            </legend>
 
             <div class="radio-color__input-container">
-              <input class="radio-color__input" type="radio" name="radio" id="red" value="red" form="buy"
-                title="Красный" required>
-              <input class="radio-color__input" type="radio" name="radio" id="green" value="green" form="buy"
-                title="Зелёный" required>
-              <input class="radio-color__input" type="radio" name="radio" id="blue" value="blue" form="buy"
-                title="Синий" required>
-              <input class="radio-color__input" type="radio" name="radio" id="yellow" value="yellow" form="buy"
-                title="Жёлтый" required>
-              <input class="radio-color__input" type="radio" name="radio" id="black" value="black" form="buy"
-                title="Чёрный" required>
-              <input class="radio-color__input" type="radio" name="radio" id="white" value="white" form="buy"
-                title="Белый" required>
+              <input class="form__input form__input-color radio-color__input" type="radio" name="color" id="red"
+                value="Красный" form="buy" title="Красный" required>
+              <input class="form__input form__input-color radio-color__input" type="radio" name="color" id="green"
+                value="Зелёный" form="buy" title="Зелёный" required>
+              <input class="form__input form__input-color  radio-color__input" type="radio" name="color" id="blue"
+                value="Синий" form="buy" title="Синий" required>
+              <input class="form__input form__input-color  radio-color__input" type="radio" name="color" id="yellow"
+                value="Жёлтый" form="buy" title="Жёлтый" required>
             </div>
             <span class="error radio-error"></span>
           </fieldset>
@@ -57,17 +54,6 @@
             Купить
           </button>
         </form>
-      </div>
-    </section>
-
-
-    <section class="popup popup_thank" aria-label="Благодарность за покупку.">
-      <div class="popup__thank-container">
-        <button class="button-close-thank" type="button"></button>
-        <div class="popup__thank-area">
-          <img class="popup__image" src="./images/thank.svg" alt="Иллюстрация: спасибо за покупку.">
-          <p class="popup__title">Спасибо за покупку!</p>
-        </div>
       </div>
     </section>
 
@@ -88,18 +74,16 @@
       <img class="header__logo" src="./images/logo.svg" alt="Логотип: всякая всячина.">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li><a class="header__menu-link" href="#food">Еда и напитки</a></li>
-          <li><a class="header__menu-link" href="#interior">Дизайн интерьера</a></li>
-          <li><a class="header__menu-link" href="#art">Искусство</a></li>
-          <li><a class="header__menu-link" href="#fashion">Мода и красота</a></li>
+          <li><a class="header__menu-link" id="menu" href="#food">Еда и напитки</a></li>
+          <li><a class="header__menu-link" id="menu" href="#interior">Дизайн интерьера</a></li>
+          <li><a class="header__menu-link" id="menu" href="#art">Искусство</a></li>
+          <li><a class="header__menu-link" id="menu" href="#fashion">Мода и красота</a></li>
         </ul>
       </nav>
 
-      <!--
-      <button class="button-night" type="button" title="Переключатель тёмной темы."></button>
--->
       <div>
-        <input class="button-night" type="button" id="toggle-theme" title="Переключатель тёмной темы." value=".">
+        <button class="button-night" type="button" title="Переключатель тёмной темы."></button>
+
       </div>
     </header>
 
@@ -118,17 +102,7 @@
       <section class="category category_food" aria-label="Еда и напитки." id="food">
         <h2 class="category__title">Еда и напитки</h2>
 
-        <div class="category__elements category__elements-food">
-          <!--
-          <article class="element">
-        <img class="element__cover" src="https://redsneaker.ru/components/com_jshopping/files/img_products/4949/reebok-classic-leather-4949-1.jpg" alt="#" />
-        <div class="element__caption">
-          <p class="element__title">Название</p>
-          <p class="element__date">Добавлено:</p>
-          <p class="element__date-format">Суббота, 1 неделя Января 2022 года</p>
-          <button class="button-buy grow_ellipse" type="button" name="buy">Купить</button>    
-      </article>-->
-        </div>
+        <div class="category__elements category__elements-food"></div>
 
       </section>
 
@@ -175,7 +149,7 @@
           <li class="footer__nav-item"><a href="#food" class="footer__nav-link">Еда и напитки</a></li>
         </ul>
       </div>
-      <a class="button-home" href="#home" id="button-up"></a>
+      <a class="button-home" id="button-up"></a>
     </footer>
   </div>
 

@@ -1,8 +1,8 @@
 .lead {
   display: grid;
   position: relative;
-    grid: 60% 40%/ 1fr 1fr;
-    margin: 150px auto 50px;
-    padding: 0 15%;
-    box-sizing: border-box;
+  grid: 60% 40%/ 1fr 1fr;
+  margin: 150px auto 50px;
+  padding: 0 15%;
+  box-sizing: border-box;
 }

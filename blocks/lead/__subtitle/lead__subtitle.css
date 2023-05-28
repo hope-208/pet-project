@@ -1,12 +1,11 @@
 .lead__subtitle {
   grid-area: 2 / 1;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 2rem;
-    display: flex;
-    align-items: flex-start;
-    color: #123C69;
-    margin-block: 0;
-    margin-inline: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 2rem;
+  display: flex;
+  align-items: flex-start;
+  margin-block: 0;
+  margin-inline: 0;
 }

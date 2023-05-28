@@ -1,19 +1,26 @@
 .button-home {
   display: flex;
-    margin: auto;
-    margin-right: 0;
-    width: 90px;
-    height: 90px;
-    border-radius: 45px;
-    border: none;
-    background: #ff3f3a url(../../images/home-button.svg) no-repeat center / 25px;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-end;
-    align-items: center;
-    box-shadow: 0 1px 2px;
+  opacity: 0;
+  visibility: hidden;
+  margin: auto;
+  margin-right: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  border: none;
+  background: #ff3f3a url(../../images/home-button.svg) no-repeat center / 25px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 1px 2px;
 }
 
 .button-home:hover {
   box-shadow: 0 1px 2px #fff;
+}
+
+.footer + .button-home:hover {
+  opacity: 1;
+  visibility: visible;
 }
