@@ -1,16 +1,16 @@
 .element__date {
   display: flex;
   max-width: 150px;
-  font-family: 'Poppins';
   font-style: italic;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1;
   grid-row: 2;
   grid-column: 1;
   margin-block: 0;
   margin-inline: 0;
-  align-content: flex-end;
-  justify-content: flex-start;
+  align-content: center;
+  justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 }
