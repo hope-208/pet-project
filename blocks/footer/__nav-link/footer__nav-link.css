@@ -1,20 +1,31 @@
 .footer__nav-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   text-decoration: none;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #ac3b61;
   font-weight: 600;
   opacity: 0.8;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 
 .footer__nav-link:hover {
   opacity: 0.6;
+  -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 
 .footer__nav-link-night {
   color: #123c69;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }

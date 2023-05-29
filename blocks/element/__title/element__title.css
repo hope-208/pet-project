@@ -1,6 +1,12 @@
 .element__title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -ms-grid-row: 1;
   grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   grid-column: 1 / 4;
   max-width: 282px;
   text-align: center;
@@ -11,14 +17,22 @@
   margin-block: 0;
   margin-inline: 0;
   border-radius: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 1.2;
+  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
 }

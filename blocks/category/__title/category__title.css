@@ -1,16 +1,39 @@
 .category__title {
   margin-block: 0;
   margin-inline: 0;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 150%;
+  line-height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
   text-align: center;
   letter-spacing: 0.5px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin: 30px auto;
   scroll-margin: 115px;
+}
+
+@media screen and (max-width: 1040px) {
+  .category__title {
+    font-size: 35px;
+    line-height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .category__title {
+    font-size: 27px;
+    line-height: 2rem;
+    margin: 25px auto;
+  }
 }

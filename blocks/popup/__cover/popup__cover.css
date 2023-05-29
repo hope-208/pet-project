@@ -1,9 +1,19 @@
 .popup__cover {
+  -o-object-fit: cover;
   object-fit: cover;
   width: 220px;
   height: 205px;
   overflow: hidden;
+  -o-object-position: center;
   object-position: center;
   border-radius: 10px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 650px) {
+  .popup__cover {
+    width: 100px;
+    height: 115px;
+  }
 }

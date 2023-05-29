@@ -1,7 +1,13 @@
 .intro {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  background: #13C39C;
+  background: #13c39c;
 }
