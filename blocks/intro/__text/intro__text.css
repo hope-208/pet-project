@@ -1,11 +1,32 @@
 .intro__text {
   margin: 40px auto;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 48px;
+  line-height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
   text-align: center;
+}
+
+@media screen and (max-width: 1040px) {
+  .intro__text {
+    font-size: 35px;
+    line-height: 2.5rem;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .intro__text {
+    font-size: 27px;
+    line-height: 2rem;
+    margin: 25px auto;
+  }
 }

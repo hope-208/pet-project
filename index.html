@@ -19,28 +19,28 @@
         <form class="form form_buy" name="buy" id="buy" novalidate>
           <h2 class="popup__title">Оформление заказа</h2>
           <div class="popup__cover-container">
-            <img class="popup__cover" src="#" alt="#" form="buy">
+            <img class="popup__cover" src="#" alt="#">
           </div>
           <fieldset class="popup__label-container" title="Обязательное поле">
-            <label class="form__label" for="number"><span class="radio-color__span">*</span>Количество:</label>
+            <label class="form__label" for="number">*Количество:</label>
             <input class="form__input" type="number" name="number" id="number" value="1" min="1" max="999" form="buy"
               required>
             <span class="error number-error"></span>
           </fieldset>
 
           <fieldset class="radio-color" title="Обязательное поле">
-            <legend class="radio-color__title"><span class="radio-color__span">*</span>Цвет:
+            <legend class="radio-color__title">*Цвет:
             </legend>
 
             <div class="radio-color__input-container">
-              <input class="form__input form__input-color radio-color__input" type="radio" name="color" id="red"
-                value="Красный" form="buy" title="Красный" required>
-              <input class="form__input form__input-color radio-color__input" type="radio" name="color" id="green"
-                value="Зелёный" form="buy" title="Зелёный" required>
-              <input class="form__input form__input-color  radio-color__input" type="radio" name="color" id="blue"
-                value="Синий" form="buy" title="Синий" required>
-              <input class="form__input form__input-color  radio-color__input" type="radio" name="color" id="yellow"
-                value="Жёлтый" form="buy" title="Жёлтый" required>
+              <input class="radio-color__input" type="radio" name="color" id="red" value="Красный" form="buy"
+                title="Красный" required>
+              <input class="radio-color__input" type="radio" name="color" id="green" value="Зелёный" form="buy"
+                title="Зелёный" required>
+              <input class="radio-color__input" type="radio" name="color" id="blue" value="Синий" form="buy"
+                title="Синий" required>
+              <input class="radio-color__input" type="radio" name="color" id="yellow" value="Жёлтый" form="buy"
+                title="Жёлтый" required>
             </div>
             <span class="error radio-error"></span>
           </fieldset>
@@ -74,10 +74,10 @@
       <img class="header__logo" src="./images/logo.svg" alt="Логотип: всякая всячина.">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li><a class="header__menu-link" id="menu" href="#food">Еда и напитки</a></li>
-          <li><a class="header__menu-link" id="menu" href="#interior">Дизайн интерьера</a></li>
-          <li><a class="header__menu-link" id="menu" href="#art">Искусство</a></li>
-          <li><a class="header__menu-link" id="menu" href="#fashion">Мода и красота</a></li>
+          <li><a class="header__menu-link" href="#food">Еда и напитки</a></li>
+          <li><a class="header__menu-link" href="#interior">Дизайн интерьера</a></li>
+          <li><a class="header__menu-link" href="#art">Искусство</a></li>
+          <li><a class="header__menu-link" href="#fashion">Мода и красота</a></li>
         </ul>
       </nav>
 

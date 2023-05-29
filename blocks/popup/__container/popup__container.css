@@ -1,21 +1,25 @@
 .popup__container {
   max-width: 700px;
+  display: -ms-grid;
   display: grid;
   grid: 32px 550px / 560px 32px;
   gap: 8px;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
   align-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin: auto;
   border-radius: 10px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/*
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 650px) {
   .popup__container {
-    grid: 20px 322px / 282px;
-    gap: 16px;
-    max-width: 282px;
+    grid: 20px 500px / 250px 20px;
+    max-width: 320px;
   }
 }
-*/

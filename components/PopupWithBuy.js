@@ -23,9 +23,9 @@ export default class PopupWithBuy extends Popup {
     super.setEventListeners();
     this._form.addEventListener('submit', (evt) => {
       evt.preventDefault();
-      this._handleFormSubmit(this._getInputValues());
-      alert('Спасибо за покупку!');
+      //this._handleFormSubmit(this._getInputValues());
       this.close();
+      alert('Спасибо за покупку!');
     });
   }
 

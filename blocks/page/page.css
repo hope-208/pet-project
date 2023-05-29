@@ -3,22 +3,9 @@
   position: relative;
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Inter', Arial, sans-serif;
   text-decoration: none;
-  scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
 }
-
-/*
-@media screen and (max-width: 880px) {
-  .page {
-    margin: 36px auto 48px;
-  }
-}
-
-@media screen and (max-width: 630px) {
-  .page {
-    margin: 28px auto 36px;
-  }
-}*/

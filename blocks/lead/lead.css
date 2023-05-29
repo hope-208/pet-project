@@ -1,8 +1,17 @@
 .lead {
+  display: -ms-grid;
   display: grid;
   position: relative;
   grid: 60% 40%/ 1fr 1fr;
   margin: 150px auto 50px;
   padding: 0 15%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-style: normal;
+}
+
+@media screen and (max-width: 840px) {
+  .lead {
+    text-shadow: 4px 4px 6px #fff;
+  }
 }
